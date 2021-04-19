@@ -1,4 +1,4 @@
-FROM docker.io/percona/percona-xtradb-cluster-operator:1.6.0-pxc5.7-backup
+FROM docker.io/percona/percona-xtradb-cluster-operator:1.7.0-pxc5.7-backup
 LABEL maintainer="Okky Hendriansyah <okky.htf@gmail.com>"
 USER root
 # Replace the scripts to omit the MD5SUM check step and list command,
